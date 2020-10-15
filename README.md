@@ -10,21 +10,23 @@ pip install Utils4R
 
 ## 基本介绍
 
-`console`：输出格式化信息到控制台
+* `console`：输出格式化信息到控制台
 
-`random`：生成散布于期望值附近的随机数
+* `random`：生成散布于期望值附近的随机数
 
 #### io (I/O 输入/输出)
 
-`io.load_string`：读取文件所有内容为字符串
+* `io.load_string`：读取文件所有内容为字符串
 
-`io.write_string`：将字符串写入到文件中
+* `io.write_string`：将字符串写入到文件中
 
-`io.load_json`：读取文件所有内容为Json格式对象
+* `io.load_json`：读取文件所有内容为Json格式对象
 
-`io.write_json`：将Json格式数据写入到文件中
+* `io.write_json`：将Json格式数据写入到文件中
 
+#### db (数据库)
 
+* `MySQL`：MySQL读写工具类
 
 
 
