@@ -88,7 +88,7 @@ setuptools.setup(
     #   py_modules=["my_module"],
     #
     # Required
-    packages=["Utils4R", "Utils4R._utils_abc", "Utils4R.db", "Utils4R.common"],
+    packages=["Utils4R", "Utils4R._utils_abc", "Utils4R.db", "Utils4R.io"],
     # packages=setuptools.find_packages(),
 
     # This field lists other packages that your project depends on to run.
