@@ -24,10 +24,6 @@ pip install Utils4R
 
 * `io.write_json`：将Json格式数据写入到文件中
 
-#### extract (提取数据)
-
-* `extract.re.get`：使用正则表达式提取数据
-
 #### db (数据库)
 
 * `MySQL`：MySQL读写工具类
@@ -35,6 +31,14 @@ pip install Utils4R
   * `create()`：创建表
   * `insert()`：执行INSERT INTO语句
   * `select()`：执行SELECT语句
+
+#### abc (抽象基类)
+
+* SingleSpider
+
+
+
+
 
 版本：0.0.1（当前版本暂未正式发布，下一个版本不一定会考虑兼容当前版本）
 
