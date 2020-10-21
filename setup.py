@@ -98,7 +98,10 @@ setuptools.setup(
     # For an analysis of "install_requires" vs pip's requirements files see:
     # https://packaging.python.org/en/latest/requirements.html
     # Optional
-    install_requires=[],
+    install_requires=[
+        "pandas>=1.0.4",
+        "sqlalchemy>=1.3.19"
+    ],
 
     # To provide executable scripts, use entry points in preference to the
     # "scripts" keyword. Entry points provide cross-platform support and allow
