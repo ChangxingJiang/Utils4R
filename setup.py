@@ -29,7 +29,7 @@ setuptools.setup(
     # project code, see
     # https://packaging.python.org/en/latest/single_source_version.html
     # Required
-    version="0.0.12",
+    version="0.0.13",
 
     # This is a one-line description or tagline of what your project does. This
     # corresponds to the "Summary" metadata field:
@@ -104,7 +104,8 @@ setuptools.setup(
     # Optional
     install_requires=[
         "pandas>=1.0.4",
-        "sqlalchemy>=1.3.19"
+        "sqlalchemy>=1.3.19",
+        "requests>=2.23.0"
     ],
 
     # To provide executable scripts, use entry points in preference to the
