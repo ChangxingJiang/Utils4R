@@ -9,7 +9,7 @@ class SingleSpider(metaclass=ABCMeta):
     def run(self, **params):
         """执行爬虫"""
 
-    def print(self, content: str):
+    def console(self, content: str):
         print(self.__class__.__name__, ":", content)
 
     def log(self, content: str):
