@@ -8,3 +8,6 @@ class SingleSpider(metaclass=ABCMeta):
     @abstractmethod
     def run(self, **params):
         """执行爬虫"""
+
+    def log(self, content):
+        print(self.__class__.__name__, ":", content)
