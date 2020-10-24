@@ -29,7 +29,7 @@ setuptools.setup(
     # project code, see
     # https://packaging.python.org/en/latest/single_source_version.html
     # Required
-    version="0.0.16",
+    version="0.0.17",
 
     # This is a one-line description or tagline of what your project does. This
     # corresponds to the "Summary" metadata field:
@@ -91,6 +91,7 @@ setuptools.setup(
     packages=["Utils4R",
               "Utils4R._utils_abc",
               "Utils4R.db",
+              "Utils4R.extract",
               "Utils4R.io",
               "Utils4R.static"],
     # packages=setuptools.find_packages(),
